@@ -1,4 +1,4 @@
-package Assignment1;
+package Assignment1;//wowo
 import static java.lang.Math.*;
 import java.util.Scanner;
 public class Question10 {
