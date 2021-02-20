@@ -7,7 +7,7 @@ public class Question8 {
         System.out.println("-----------Fahrenheit to Celsius conversion----------");
         System.out.print("Enter the temperature in Fahrenheit (F): ");
         double F = input.nextDouble();
-        double Celsius = (5.2f/9.2f)*F - (160.2f/9.2f);
+        float Celsius = (float) ((5.2f/9.2f)*F - (160.2f/9.2f));
         System.out.println( +F+ " Degree Fahrenheit equals to " +Celsius+ " Degree Celsius.");
 
 
