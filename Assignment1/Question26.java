@@ -18,8 +18,10 @@ import java.util.Scanner;
 
         public static void Value(int A) { //value method declaration
             int Reverse = 0;
-            while (A != 0) {
-                Reverse = Reverse * 10 + A % 10; //formula to determine the reverse
+            while (A != 0)
+            {
+                int digit = A%10;
+                Reverse = Reverse * 10 + digit; //formula to determine the reverse
                 A = A / 10;
             }
             System.out.println ("The required reverse number is " +Reverse); //print the result
